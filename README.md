@@ -2,7 +2,7 @@
 
 **Anqi Chen, Institute for Protein Design, University of Washington, Oct. 23, 2025**
 
-This repository demonstrates a full computational pipeline for designing de novo Zn proteases. The Jupyter notebook `zn_protease.ipynb` walks through one complete design round, including:
+The repository for the computational design of de novo Zn proteases. The Jupyter notebook `zn_protease.ipynb` demonstrates one design round, including:
 
 - Backbone generation using RoseTTAFold Diffusion 2 — Molecular Interfaces (RFD2-MI)
 - Backbone benchmarking and filtering
@@ -22,7 +22,7 @@ Python scripts for command generation, analysis, and filtering used in this proc
 
 - **GPU inference**: NVIDIA A4000, A6000, L40, H100 on a shared computing cluster  
   - CUDA 13.0, NVIDIA driver 580.82.07  
-- **CPU sequence design & filtering**: AMD EPYC 7702P 64-Core nodes  
+- **CPU sequence design, analysis and filtering**: AMD EPYC 7702P 64-Core nodes  
 - **Python environment**: See `requirements.txt` 
 
 ---
