@@ -9,12 +9,7 @@ The repository for the computational design of de novo Zn proteases. The Jupyter
 - Sequence design using EnhancedMPNN(2) + FastRelax cycles
 - Structure prediction using AlphaFold3 (AF3)
 
-Python scripts for command generation, analysis, and filtering used in this procedure are included in this repository.
-
-**Availability of tools**:
-
-- RFD2-MI source code will be released after the publication of Bauer, 2025 (1).  
-- EnhancedMPNN is available at [fused_mpnn](https://github.com/baker-laboratory/fused_mpnn).
+Python scripts for command generation, analysis, and filtering used in this procedure are included in this repository. RFD2-MI source code will be released after the publication of Bauer, 2025 (1). EnhancedMPNN is available at [fused_mpnn](https://github.com/baker-laboratory/fused_mpnn).
 
 ---
 
