@@ -12,6 +12,9 @@ Inference calculations for RFD2-MI and AF3 were performed using NVIDIA A4000, A6
 Sequence design and filtering steps were executed on CPU nodes equipped with AMD EPYC 7702P 64-Core processors.
 
 
+## License
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
 
 ## Reference
 1. Bauer, M. S. et al. De novo design of phospho-tyrosine peptide binders. Preprint at https://doi.org/10.1101/2025.09.29.678898 (2025).
