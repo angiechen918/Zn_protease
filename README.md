@@ -23,7 +23,7 @@ Python scripts for command generation, analysis, and filtering used in this proc
 
 ## Dependencies
 
-Install Python packages using:
+Install required Python packages using:
 
 ```bash
 pip install -r requirements.txt
