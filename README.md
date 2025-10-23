@@ -16,7 +16,7 @@ Python scripts for command generation, analysis, and filtering used in this proc
 ## Hardware & Software
 
 - **GPU**: Inference computation for RFD2-MI and AF3 were performed using NVIDIA A4000, A6000, L40, H100 on a shared computing cluster with CUDA 13.0, NVIDIA driver 580.82.07. Inference time for RFD2-MI is 1-2 mins for each backbone on an a4000 gpu. For AF3 is ~ 1 min for each sequence.   
-- **CPU**: Sequence design, analysis and filtering were performed on AMD EPYC 7702P 64-Core cpu nodes. The cpu run time for the sequence design of one backbone in 10 cycles of EnhancedMPNN-FR is around 10 mins. Using the parallelization parameters, the cpu run tim for each job in the analysis, and filtering steps are less than 10 mins. 
+- **CPU**: Sequence design, analysis and filtering were performed on AMD EPYC 7702P 64-Core cpu nodes. The cpu run time for the sequence design of one backbone in 10 cycles of EnhancedMPNN-FR is around 10 mins. Using the parallelization parameters specified in the Jupyter notebook `zn_protease.ipynb`, the cpu run time for each job in the analysis, and filtering steps are less than 10 mins. 
 - **Python environment**: See `requirements.txt` 
 
 ---
