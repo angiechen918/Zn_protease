@@ -13,7 +13,7 @@ Sequence design and filtering steps were executed on CPU nodes equipped with AMD
 
 
 
-# Reference
+## Reference
 1. Bauer, M. S. et al. De novo design of phospho-tyrosine peptide binders. Preprint at https://doi.org/10.1101/2025.09.29.678898 (2025).
 2. Xue, F. et al. Improving protein sequence design through designability preference optimization. Preprint at http://arxiv.org/abs/2506.00297 (2025).
 
