@@ -15,9 +15,8 @@ Python scripts for command generation, analysis, and filtering used in this proc
 
 ## Hardware & Software
 
-- **GPU inference**: NVIDIA A4000, A6000, L40, H100 on a shared computing cluster  
-  - CUDA 13.0, NVIDIA driver 580.82.07  
-- **CPU sequence design, analysis and filtering**: AMD EPYC 7702P 64-Core nodes  
+- **GPU**: Inference computation for RFD2-MI and AF3 were performed using NVIDIA A4000, A6000, L40, H100 on a shared computing cluster with CUDA 13.0, NVIDIA driver 580.82.07.  
+- **CPU**: Sequence design, analysis and filtering were performed on AMD EPYC 7702P 64-Core cpu nodes  
 - **Python environment**: See `requirements.txt` 
 
 ---
